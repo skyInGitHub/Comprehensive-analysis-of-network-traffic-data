@@ -1,0 +1,17 @@
+generate.two.200 <- function(classTable, classList) {
+	
+	columnList <- c("V1", "V2", "V3", "V4", "V5", "V6", "V7", "V8", "V9", "V10", "V11", "V12", "V13", "V14", "V15", "V16", "V17", "V18", "V19", "V20", "V21", "class")
+	
+	http <- classTable[[6]] # Num6 is class HTTP
+	smtp <- classTable[[13]] # Num13 is class SMTP
+	
+	set.seed(100)
+	c6 <- http[sample(nrow(http), 100),]
+	c13 <- smtp[sample(nrow(smtp), 100),]
+
+	c6.c13 <- rbind(c6, c13)
+	names(c6.c13) <- columnList
+
+	fileAdd <- paste("./two classes/", classList[6], "_", classList[13], "_noPCA_200.csv", sep="")
+	write.csv(c6.c13, file=fileAdd)
+}
