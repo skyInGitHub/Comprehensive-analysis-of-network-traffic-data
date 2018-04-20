@@ -1,6 +1,8 @@
 # Comprehensive-analysis-of-network-traffic-data
 Code resource (R) for the paper: https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.4181
 
+The data set link is: https://drive.google.com/open?id=0B6Qbk6GWTk7NdEJtVHRJQ3ZqSVE (.RData)
+
 Classification codes using R tool: using Random Forest (RF), C50, KNN with PCA and without PCA
 
 Install R firstly. Put the dataset in the folder. Then run corresponding code.
