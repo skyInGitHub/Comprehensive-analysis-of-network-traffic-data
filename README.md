@@ -1,5 +1,5 @@
 # Comprehensive-analysis-of-network-traffic-data
-Code resource (R) for the paper: https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.4181
+Code resource (R) for the paper named "Comprehensive analysis of network traffic data": https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.4181
 
 The data set link is: https://drive.google.com/open?id=0B6Qbk6GWTk7NdEJtVHRJQ3ZqSVE (.RData)
 
